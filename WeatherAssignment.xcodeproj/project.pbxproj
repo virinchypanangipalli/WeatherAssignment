@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E5A2B962574FA2100D0A243 /* WeatherAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5A2B962574FA2100D0A243 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5A2B992574FA2100D0A243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5A2B9C2574FA2100D0A243 /* WeatherAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherAssignment.xcdatamodel; sourceTree = "<group>"; };
 		8E5A2B9E2574FA2100D0A243 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		8E5A2B972574FA2100D0A243 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E5A2B962574FA2100D0A243 /* WeatherAssignment.app */,
+				8E5A2B962574FA2100D0A243 /* Weather.app */,
 				8E5A2BAF2574FA2300D0A243 /* WeatherAssignmentTests.xctest */,
 				8E5A2BBA2574FA2300D0A243 /* WeatherAssignmentUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 			);
 			name = WeatherAssignment;
 			productName = WeatherAssignment;
-			productReference = 8E5A2B962574FA2100D0A243 /* WeatherAssignment.app */;
+			productReference = 8E5A2B962574FA2100D0A243 /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8E5A2BAE2574FA2300D0A243 /* WeatherAssignmentTests */ = {
@@ -446,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.optus.weatherassignments;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Weather;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.optus.weatherassignments;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Weather;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
